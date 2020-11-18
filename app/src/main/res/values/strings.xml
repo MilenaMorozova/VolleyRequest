@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VolleyRequest</string>
+    <string name="send_request">Send request</string>
+    <string name="text_is_here">Text is here</string>
+</resources>
