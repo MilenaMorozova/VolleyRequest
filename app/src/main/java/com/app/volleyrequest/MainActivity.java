@@ -19,7 +19,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-    private static final int MY_PERMISSIONS_REQUEST_INTERNET = 1;
     private TextView textView;
     private Button requestButton;
 
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.d("MY_TAG_RESPONSE", "RESPONSE DIDN'T RECEIVE "+error);
+                Log.d("MY_TAG_RESPONSE", "RESPONSE DIDN'T RECEIVE " + error);
                 textView.setText("That didn't work!");
             }
         });
